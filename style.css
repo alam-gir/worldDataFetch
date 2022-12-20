@@ -1,0 +1,109 @@
+/* ! import font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+#world-countries-section{
+    height: 100vh;
+    width: 100%;
+}
+
+.heading, .btn-section{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.heading>h1{
+    color: #f2a93b;
+    font-size: 1.5rem;
+
+}
+.heading>h4{
+    font-size: .667rem;
+}
+.heading>h4>span{
+    color: #f2a93b;
+}
+.btn-section{
+    height: auto;
+    padding: 1rem 0;
+    background-color: #efeff0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.btn-section>.btns{
+    display: flex;
+    gap: 1rem;
+}
+.btn-section>.btns>button{
+    height: 2rem;
+    padding: 0 1rem;
+    background: #f2a93b;
+    border: #f2a93b;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-section>.btns>button:active{
+    background: #ff8800;
+}
+.btn-section>p{
+    font-size: .775rem;
+    color: #333;
+}
+.btn-section>p>span{
+    color: #f2a93b;
+}
+.btn-section>.btns>.active-btn{
+   background: #ff8800;
+}
+
+.main-container{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+}
+
+.data-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.name,.total-count{
+    width: 7rem;
+    font-size: .875rem;
+    font-weight: 400;
+    color: #333;
+    text-transform: capitalize;
+}
+.progress-bar-container{
+    height: 1.7rem;
+    min-width: 15rem;
+    width: 50%;
+    background: #ffecd1 ;
+}
+.progress-bar-container>.progress-bar{
+    height: 100%;
+    width: 50%;
+    background: #f2a93b ;
+}
