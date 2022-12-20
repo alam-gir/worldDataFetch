@@ -11,7 +11,7 @@ const info = document.querySelector(".info");
 const totalCountries = document.querySelector(".total-countries");
 console.log(mainContainer);
 
-const showTopCountry = 20;
+const showTopCountry = 10;
 // ! functions
 async function countriesInfo() {
   return fetch(COUNTRIES_URL).then((res) => res.json());
